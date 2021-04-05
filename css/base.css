@@ -1,0 +1,35 @@
+body{
+    color:#999;
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    min-width: 1226px;/*定义最小宽度*/
+    background-color: #f4f4f4;
+
+}
+/*指定标准容器大小*/
+.w{
+    width: 1226px;
+    margin: 0 auto;
+}
+/*高度塌陷 清除浮动*/
+.clearfix::before,.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+a{
+color: #999;
+}
+a:hover{
+    color: red;
+}
+
+.color-red{
+    color: red;
+}
